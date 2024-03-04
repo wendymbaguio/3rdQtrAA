@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>A-E-I LoVE U</title>
+    <style>
+        * {
+				box-sizing: border-box;
+			}
+			
+			body {
+				background-image: url("bgimage.png");
+				background-size: 100%;
+				background-position: center;
+				background-attachment: fixed;
+			}
+    </style>
+</head>
+<body>
+    <script> 
+        const word = prompt("Enter any word (๑•̀ㅂ•́)و✧");
+        const vowels = word.match(/[aeiou]/gi).length;
+        alert("The number of vowels in the word " + word + " is " + vowels);
+        alert("Enjoy your "+ vowels + " chocolates! (o゜▽゜)o*:･ﾟ✧")
+    </script>
+</body>
